@@ -1,0 +1,53 @@
+project: TOS
+name: Trading Operations System
+purpose: portable_external_ai_memory
+version: 1.0
+current_phase: ICT_Knowledge_Acquisition
+human_role: engineer_owner_final_monitor
+layers:
+  - ANALYSIS
+  - RISK
+  - TIMING
+  - MONITORING
+analysis_axes:
+  - CONTEXT_CONTENT
+  - TIME_ALIGNMENT
+  - PRICE_ALIGNMENT
+  - MULTI_TIMEFRAME
+  - MODELS_SETUPS
+prompt_framework:
+  base: GCAO+V
+  components:
+    - Identity
+    - Role
+    - Mission_Goal
+    - Context
+    - Inputs
+    - Action
+    - Rules
+    - Do_Dont
+    - Source_Policy
+    - Validation
+    - Output_Format
+    - Handoff
+    - Iteration_Escalation
+    - Version
+ict_source_policy:
+  primary: Direct original teaching by Michael Huddleston
+  official_channel: https://www.youtube.com/@InnerCircleTrader
+  secondary: Archives/transcripts/explanations only as discovery or verification
+status_values:
+  - PRIMARY-VERIFIED
+  - SECONDARY-VERIFIED
+  - UNVERIFIED
+  - INTERPRETATION
+  - CONFLICT
+  - UNKNOWN
+research_team:
+  - ICT_Source_Scout
+  - ICT_Curriculum_Researcher
+  - ICT_Concept_Researcher
+  - ICT_Time_Price_Researcher
+  - ICT_Model_Strategy_Researcher
+  - ICT_Auditor_Truth_Controller
+  - ICT_Knowledge_Architect
