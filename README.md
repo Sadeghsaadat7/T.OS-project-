@@ -4,6 +4,8 @@
 Portable external memory for the TOS (Trading Operations System) project, designed to let different AI systems reconstruct the project's context, architecture, prompt standards, research methodology and roadmap without relying on one chat history.
 
 ## Repository map
+- `AI_GUIDE.md` — mandatory entry point and operating guide for AI systems
+- `TOS_External_Memory/` — structured external project memory
 - `01_PROJECT_OVERVIEW.md` — project identity, objective and philosophy
 - `02_TOS_ARCHITECTURE.md` — layers and separation of responsibilities
 - `03_ANALYSIS_LAYER.md` — analysis architecture, Time/Price separation
