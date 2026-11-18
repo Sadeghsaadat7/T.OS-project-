@@ -656,29 +656,22 @@ cannot establish general reliability or domain truth.
 
 ## 12. Review and approval record
 
-  -----------------------------------------------------------------------
-  Item                                Status
-  ----------------------------------- -----------------------------------
-  Controlled synthetic method         Approved by Human Authority in
-                                      conversation
+| Item | Status |
+|---|---|
+| Controlled synthetic method | Approved by Human Authority |
+| Test Package content | FINAL / HUMAN AUTHORITY REVIEWED AND APPROVED / UPLOADED / USER-CONFIRMED |
+| Ten individual test specifications | Defined; not executed |
+| Five handoff checks | Defined; not executed |
+| A5 Test Harness mock input | `SYN-HARNESS-G3-MOCK-001`; not Gate evidence or a simulated decision |
+| Prompt execution | NOT AUTHORIZED |
+| Gate decisions / Knowledge integration | NOT CREATED |
+| Deployment / production use | NOT AUTHORIZED |
 
-  Test Package content                FINALIZED; awaiting Human Authority
-                                      review and repository upload
+**Next control point:** Pre-execution readiness / preflight review of the governing artifacts, prompt packages, test fixtures, criteria, and isolated non-production test context.
 
-  Ten individual test specifications  Defined; not executed
+Practical prompt execution remains NOT AUTHORIZED unless and until Human Authority issues a separate, explicit authorization defining the permitted scope and environment.
 
-  Five handoff checks                 Defined; not executed
-
-  A5 Test Harness mock input           `SYN-HARNESS-G3-MOCK-001`; not Gate
-                                      evidence or a simulated decision
-
-  Prompt execution                    NOT AUTHORIZED
-
-  Gate decisions / Knowledge          NOT CREATED
-  integration                         
-
-  Deployment / production use         NOT AUTHORIZED
-  -----------------------------------------------------------------------
+This document does not create, simulate, or satisfy any Gate decision.
 
 **Next control point:** Human Authority review of this finalized Test
 Package and repository upload. A separate explicit authorization is
