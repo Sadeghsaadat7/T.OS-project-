@@ -203,10 +203,10 @@ This PASS means the requested per-container CPU and memory limits were accepted 
 | Document status | FINAL — READY FOR USER ACCEPTANCE |
 | Test execution | COMPLETED — cleanup and post-test checks passed |
 | Test result | PASS — within approved RT-15 scope |
-| GitHub upload | NOT UPLOADED — READY FOR UPLOAD |
+| GitHub upload | UPLOADED — VERIFIED ON MAIN |
 | User acceptance | PENDING USER CONFIRMATION |
 | Scope | RT-15 per-container CPU and memory enforcement only |
-| Next stage | User acceptance → GitHub upload → verify on `main` → user confirms upload → RT-15 closure |
+| Next stage | User acceptance → user confirms acceptance → RT-15 closure |
 
 ---
 
