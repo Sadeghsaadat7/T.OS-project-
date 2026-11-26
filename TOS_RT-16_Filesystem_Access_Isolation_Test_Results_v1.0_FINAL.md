@@ -6,7 +6,7 @@
 |---|---|
 | Document Title | TOS RT-16 — Filesystem Access Isolation Test Results |
 | Version | 1.0 |
-| Status | FINAL — READY FOR GITHUB UPLOAD |
+| Status | FINAL — UPLOADED AND VERIFIED ON MAIN; USER ACCEPTANCE PENDING |
 | Test Plan | `TOS_RT-16_Filesystem_Access_Isolation_Test_Plan_v1.0_FINAL.md` |
 | Test Date | 2026-11-26 |
 | Execution Environment | Windows 11 ARM64 / Podman 6.2.1 / WSL2 |
@@ -14,7 +14,7 @@
 | Cleanup Result | PASS |
 | Runtime Selection | NOT FINALIZED |
 | Production Authorization | NOT GRANTED |
-| Stage Closure | PENDING DOCUMENT UPLOAD, VERIFICATION, AND USER ACCEPTANCE |
+| Stage Closure | PENDING USER ACCEPTANCE |
 
 ---
 
@@ -504,24 +504,20 @@ The approved test plan remains the governing source for the test scope and expec
 
 ## 12. Document Status and Stage Acceptance
 
-**Document Status: FINAL — READY FOR GITHUB UPLOAD**
+**Document Status: FINAL — UPLOADED AND VERIFIED ON MAIN**
 
 This report records the completed RT-16 execution, results, deviations, and cleanup.
 
-The technical test execution is complete. However, the RT-16 stage must not be considered fully closed until all of the following are completed:
+The final results document has been uploaded to the repository and verified on the `main` branch. The user has confirmed completion of the upload. Formal acceptance of the uploaded results report remains the final user-controlled stage-closure condition.
 
-1. This final results document is uploaded to the repository.
-2. The uploaded file is verified on the repository's `main` branch.
-3. The user explicitly confirms acceptance of the uploaded document.
+Current status:
 
-Until those conditions are met:
-
-- Document upload status: PENDING.
-- Repository verification: PENDING.
+- Document upload status: UPLOADED.
+- Repository verification: VERIFIED ON `main`.
 - User acceptance of results report: PENDING.
-- RT-16 stage closure: PENDING.
+- RT-16 stage closure: PENDING USER ACCEPTANCE.
 
-No GitHub upload or repository modification is claimed by this report.
+The technical test execution and controlled cleanup are complete. RT-16 must not be marked fully closed until the user explicitly accepts this uploaded results report.
 
 ---
 
