@@ -36,8 +36,12 @@ The test does not attempt to bypass Podman's control plane or the Linux kernel. 
 8. Compare Podman inspection data with observed filesystem behavior.
 9. Remove only RT-16 test containers and named volumes, then verify their absence and confirm the Podman machine remains running and rootless.
 
-A short-lived, disposable seed container is used only to write the synthetic shared-volume fixture. It is not a third subject container and is created with `--rm`.
+Two short-lived helper containers are used only to prepare and verify the synthetic shared-volume fixture:
 
+- `tos-rt16-seed`: Writes the synthetic fixture into the shared named volume.
+- `tos-rt16-readcheck`: Verifies that the fixture can be read back.
+
+Neither helper is a subject container. Both use `--rm` and `--network=none` and must be verified absent after execution.
 ### 2.2 Out of scope
 
 - Host-directory or personal-directory bind mounts.
@@ -74,6 +78,7 @@ The plan deliberately uses named volumes managed by Podman, not Windows host pat
 | `tos-rt16-private-a` | Named volume | Container A only, `/tos-private` | Read-write |
 | `tos-rt16-private-b` | Named volume | Container B only, `/tos-private` | Read-write |
 | `tos-rt16-shared-ro` | Named volume | Seed helper read-write; both subject containers read-only at `/tos-shared` | RW only during fixture creation, then RO in subjects |
+| `tos-rt16-readcheck` | Temporary read-check helper | Shared fixture volume only | Rootless; `--rm`; no network; read-only |
 
 Expected subject mount layout:
 
@@ -96,7 +101,7 @@ No host path is included in any `-v` / `--volume` argument. No mount targets `/`
 8. Use synthetic canary content only. Do not copy real files or secrets into the test volumes.
 9. Capture complete command output, exit codes, and timestamps. Keep raw execution output separate from interpretation. Preserve the transcript until the results report has been completed and its evidence references checked.
 10. If any private-volume marker becomes visible in the other subject container, or a read-only write probe succeeds, stop further access testing immediately. Preserve the result; do not overwrite or delete the unexpected data as part of the test.
-11. Cleanup is limited to the three exact RT-16 container names and three exact RT-16 volume names. Do not run broad prune commands.
+11. Cleanup is limited to the four exact RT-16 container names and three exact RT-16 volume names listed in the preflight variables. Do not run broad prune commands.
 12. If cleanup cannot be completed safely, stop and report the exact residual state. Do not improvise system-level cleanup.
 
 ## 6. Preconditions and Preflight
@@ -462,7 +467,7 @@ foreach ($Name in $ContainerNames) {
 Get-Date -Format o
 ```
 
-The seed and read-back helper containers use `--rm`; this loop also checks the reserved seed name so an unexpected residual can be reported and removed only by its exact reserved name.
+Both seed and read-back helper containers use `--rm`. Both reserved helper names are included in the cleanup loop, allowing any unexpected residual to be identified and handled only by its exact reserved name.
 
 ### 8.3 Verify container absence, then remove only existing RT-16 volumes
 
