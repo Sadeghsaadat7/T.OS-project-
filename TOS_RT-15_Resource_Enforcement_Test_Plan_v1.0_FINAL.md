@@ -359,10 +359,10 @@ This test validates per-container CPU and memory cgroup limit configuration and 
 | Document status | FINAL — ACCEPTED |
 | Test execution | NOT STARTED |
 | Test result | NOT YET ASSESSED |
-| GitHub upload | NOT UPLOADED — READY FOR UPLOAD |
+| GitHub upload | UPLOADED — VERIFIED ON MAIN |
 | User acceptance | ACCEPTED — USER CONFIRMED |
 | Scope | RT-15 per-container CPU and memory enforcement only |
-| Next stage | GitHub upload → verify on `main` → user confirms upload → RT-15 execution |
+| Next stage |RT-15 execution — preflight|
 
 ---
 
