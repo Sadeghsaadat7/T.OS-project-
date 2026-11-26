@@ -3,14 +3,7 @@
 **Document ID:** TOS-RT-13-UNS-TP-001  
 **Version:** 1.0  
 **Date:** 2026-11-26  
-**Status:** Document status:
-FINAL — UPLOAD REPORTED / INDEPENDENT VERIFICATION PENDING
-
-GitHub upload:
-USER-REPORTED — VERIFICATION PENDING
-
-User acceptance:
-PENDING
+**Status:** FINAL — GITHUB UPLOAD VERIFIED / PENDING USER ACCEPTANCE
 
 **Target Runtime:** Podman 6.2.1, WSL2 provider, ARM64, Rootless  
 **Target Image:** `quay.io/fedora/fedora:latest` (ARM64 image previously pulled and executed successfully)  
@@ -218,16 +211,14 @@ After execution, record:
 No runtime-selection decision is made by this test.
 
 ## 11. Document Control
-
 | Field | Value |
 |---|---|
-| Document status | FINAL — UPLOAD REPORTED / INDEPENDENT VERIFICATION PENDING
-GitHub upload:
-USER-REPORTED — VERIFICATION PENDING|
+| Document status | FINAL — GITHUB UPLOAD VERIFIED / PENDING USER ACCEPTANCE |
 | Test execution | NOT STARTED |
+| GitHub upload | UPLOADED — VERIFIED ON MAIN |
 | User acceptance | PENDING |
 | Scope | RT-13 User Namespace Separation only |
-| Next stage | Execute RT-13 after document upload and user confirmation |
+| Next stage | Execute RT-13 after user acceptance |
 
 ---
 
