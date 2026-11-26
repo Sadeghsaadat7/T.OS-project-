@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-16-FAI-TP-001  
 **Version:** 1.0  
 **Date:** 2026-11-26  
-**Status:** FINAL — READY FOR USER ACCEPTANCE  
+**Status:**	FINAL — ACCEPTED  
 **Assessment Track:** ID-15 — Independent Execution Environment Feasibility Assessment  
 **Target Runtime:** Podman 6.2.1, WSL2 provider, ARM64, rootless  
 **Target Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`); pull prohibited  
@@ -633,12 +633,12 @@ The references document supported Podman mechanisms. They do not establish that 
 |---|---|
 | Document ID | TOS-RT-16-FAI-TP-001 |
 | Version | 1.0 |
-| Document Status | FINAL — READY FOR USER ACCEPTANCE |
-| Plan Acceptance | PENDING HUMAN AUTHORITY ACCEPTANCE |
+| Document Status | FINAL — ACCEPTED |
+| Plan Acceptance | ACCEPTED |
 | Test Execution | NOT STARTED |
 | Execution Authorization | NOT GRANTED |
-| GitHub Upload | NOT UPLOADED — USER APPROVAL REQUIRED |
-| User Acceptance | PENDING |
+| GitHub Upload | UPLOADED — VERIFIED ON MAIN |
+| User Acceptance | ACCEPTED — USER CONFIRMED |
 | Scope | RT-16 filesystem-layer separation, private named-volume attachment, and read-only named-volume mount behavior only |
 | Runtime Selection | NOT FINALIZED |
 | Production Authorization | NOT GRANTED |
