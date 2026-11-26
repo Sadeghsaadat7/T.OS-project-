@@ -392,7 +392,7 @@ The findings are limited to the specific observations and test scope recorded in
 |---|---|
 | Document ID | TOS-ID-15N-RFR-001 |
 | Version | 1.0 |
-| Document status | FINAL — READY FOR USER REVIEW / GITHUB UPLOAD |
+| Document status | FINAL — GITHUB UPLOAD VERIFIED / USER ACCEPTANCE PENDING |
 | Technical assessment | Initial Podman + WSL2 feasibility completed |
 | RT-09 | HOLD / NOT OPERATIONAL — ROOT CAUSE UNRESOLVED |
 | RT-10 | NOT EXECUTED |
