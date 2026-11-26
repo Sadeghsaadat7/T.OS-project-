@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-13-UNS-TR-001  
 **Version:** 1.0  
 **Date:** 2026-11-26  
-**Status:** FINAL — PENDING USER ACCEPTANCE  
+**Status:** FINAL — ACCEPTED 
 **Test Plan:** `TOS_RT-13_User_Namespace_Separation_Test_Plan_v1.0_FINAL.md`  
 **Target Runtime:** Podman 6.2.1, WSL2 provider, ARM64, Rootless  
 **Test Class:** Controlled, non-production runtime validation
@@ -186,13 +186,13 @@ Any additional test should have its own approved scope and evidence requirements
 
 | Field | Value |
 |---|---|
-| Document status | FINAL — PENDING USER ACCEPTANCE |
+| Document status |	FINAL — ACCEPTED |
 | Test execution | COMPLETED |
 | Test result | PARTIAL PASS |
-| GitHub upload | PENDING |
-| User acceptance | PENDING |
+| GitHub upload | UPLOADED — VERIFIED ON MAIN |
+| User acceptance |	ACCEPTED — USER CONFIRMED |
 | Scope | RT-13 User Namespace Separation only |
-| Next stage | User review and acceptance; then GitHub upload and verification |
+| Next stage | RT-13 CLOSED; proceed to RT-14 planning |
 
 ---
 
