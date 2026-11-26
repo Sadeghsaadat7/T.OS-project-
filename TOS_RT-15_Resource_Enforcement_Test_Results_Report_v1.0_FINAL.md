@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-15-RE-TR-001  
 **Version:** 1.0  
 **Date:** 2026-11-26  
-**Status:** FINAL — FINAL — ACCEPTED  
+**Status:** FINAL — ACCEPTED  
 **Approved Test Plan:** `TOS_RT-15_Resource_Enforcement_Test_Plan_v1.0_FINAL.md`  
 **Target Runtime:** Podman 6.2.1, WSL2 provider, ARM64, rootless  
 **Test Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`); no pull performed  
