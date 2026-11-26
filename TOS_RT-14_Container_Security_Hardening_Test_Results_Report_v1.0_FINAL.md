@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-14-CSH-TR-001  
 **Version:** 1.0  
 **Date:** 2026-11-26  
-**Status:** FINAL — READY FOR USER ACCEPTANCE  
+**Status:** FINAL — ACCEPTED  
 **Approved Test Plan:** `TOS_RT-14_Container_Security_Hardening_Test_Plan_v1.0_FINAL.md`  
 **Target Runtime:** Podman 6.2.1, WSL2 provider, ARM64, rootless  
 **Test Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`)  
@@ -222,13 +222,13 @@ Other scope limitations:
 
 | Field | Value |
 |---|---|
-| Document status | FINAL — READY FOR USER ACCEPTANCE |
+| Document status | FINAL — ACCEPTED |
 | Test execution | COMPLETED — cleanup and post-test checks passed |
-| Test result | PARTIAL PASS — all executed functional hardening controls passed; per-command timestamp evidence is incomplete |
-| GitHub upload | READY FOR UPLOAD — NOT YET UPLOADED |
-| User acceptance | PENDING USER CONFIRMATION |
-| Scope | RT-14 Container Security Hardening only |
-| Next stage | User acceptance → GitHub upload → verify on `main` → user confirms upload → RT-14 closure |
+| Test result | PARTIAL PASS |
+| GitHub upload | UPLOADED — VERIFIED ON MAIN |
+| User acceptance | ACCEPTED — USER CONFIRMED |
+| Next stage | RT-14 CLOSED; proceed to RT-15 planning |
+| Scope | RT-14 Container Security Hardening only|
 
 ---
 
