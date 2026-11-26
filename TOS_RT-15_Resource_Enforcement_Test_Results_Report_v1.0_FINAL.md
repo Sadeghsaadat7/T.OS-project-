@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-15-RE-TR-001  
 **Version:** 1.0  
 **Date:** 2026-11-26  
-**Status:** FINAL — READY FOR USER ACCEPTANCE  
+**Status:** FINAL — FINAL — ACCEPTED  
 **Approved Test Plan:** `TOS_RT-15_Resource_Enforcement_Test_Plan_v1.0_FINAL.md`  
 **Target Runtime:** Podman 6.2.1, WSL2 provider, ARM64, rootless  
 **Test Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`); no pull performed  
@@ -197,17 +197,15 @@ This PASS means the requested per-container CPU and memory limits were accepted 
 - Linux kernel cgroup v2 documentation (`cpu.max`, `memory.max`): https://docs.kernel.org/admin-guide/cgroup-v2.html
 
 ## 13. Document Control
-
-| Field | Value |
+| Field | Final Value |
 |---|---|
-| Document status | FINAL — READY FOR USER ACCEPTANCE |
-| Test execution | COMPLETED — cleanup and post-test checks passed |
-| Test result | PASS — within approved RT-15 scope |
-| GitHub upload | UPLOADED — VERIFIED ON MAIN |
-| User acceptance | PENDING USER CONFIRMATION |
+| Document Status | FINAL — ACCEPTED|
+| Test Execution | COMPLETED — cleanup and post-test checks passed |
+| Test Result | PASS — within approved RT-15 scope |
+| GitHub Upload | UPLOADED — VERIFIED ON MAIN |
+| User Acceptance | ACCEPTED — USER CONFIRMED |
 | Scope | RT-15 per-container CPU and memory enforcement only |
-| Next stage | User acceptance → user confirms acceptance → RT-15 closure |
-
+| Next Stage | RT-15 CLOSED; next-stage planning requires separate scope approval |
 ---
 
 **End of document**
