@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-17-SVDAI-TP-001  
 **Version:** 1.1  
 **Date:** 2026-11-28  
-**Status:** FINAL — READY FOR GITHUB UPLOAD; EXECUTION NOT AUTHORIZED  
+**Status:** **Status:** FINAL — ACCEPTED BY USER; UPLOADED AND VERIFIED ON MAIN; EXECUTION NOT AUTHORIZED  
 **Assessment Track:** Local Execution Environment Feasibility — Agent Identity & Permission Isolation  
 **Target Runtime:** Podman 6.2.1 / WSL2 / Linux ARM64 / rootless  
 **Target Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`); image pull prohibited  
@@ -641,23 +641,23 @@ If a container removal fails, do not attempt volume removal until all v1.1 conta
 8. RT-17 v1.1 design-probe evidence: conversation execution records P1–P10 and scoped cleanup on 2026-11-28. These are design evidence only, not formal test results.
 
 ## 14. Document Control
-
 | Field | Value |
 |---|---|
 | Document ID | `TOS-RT-17-SVDAI-TP-001` |
 | Version | `1.1` |
-| Status | `FINAL — READY FOR GITHUB UPLOAD; EXECUTION NOT AUTHORIZED` |
+| Status | `FINAL — ACCEPTED BY USER; UPLOADED AND VERIFIED ON MAIN; EXECUTION NOT AUTHORIZED` |
 | Supersedes | v1.0 execution procedure for any future RT-17 run; v1.0 remains preserved as historical record |
 | Change Summary | Replaces the v1.0 volume-initialization design; applies initializer-first copy-up; narrows the test to `0600` files directly inside an initializer-owned `1777` directory; reserves independent v1.1 resource names; corrects PowerShell 5.1 script delivery and sticky-bit denial matching |
-| Plan Review | `USER REVIEW COMPLETED; FINALIZATION REQUESTED — 2026-11-28` |
-| GitHub Upload | `NOT UPLOADED` |
-| GitHub Verification | `NOT VERIFIED ON MAIN` |
-| Execution Authorization | `NOT AUTHORIZED — REQUIRES SEPARATE USER APPROVAL AFTER PLAN ACCEPTANCE AND MAIN VERIFICATION` |
+| Plan Review | `REVIEWED AND ACCEPTED BY USER — 2026-11-28` |
+| GitHub Upload | `UPLOADED — VERIFIED ON MAIN` |
+| GitHub Verification | `PASS — EXACT FILE PRESENT ON MAIN; CONTENT AND BLOB SHA VERIFIED` |
+| GitHub Path | `TOS_RT-17_Shared_Volume_DAC_Isolation_Test_Plan_v1.1_FINAL.md` |
+| Verified Main Commit | `09d5d9761ab8f1fb736006ddbdcadb60ff63489f` |
+| Verified Blob SHA | `896b81ddb6b93f1127acd41a60e5a7da3ab67dfe` |
+| Execution Authorization | `NOT AUTHORIZED — REQUIRES SEPARATE EXPLICIT USER APPROVAL` |
 | Test Execution | `NOT STARTED` |
 | Test Result | `NOT ASSESSED` |
 | Production Authorization | `NOT GRANTED` |
-| Next Stage | User uploads this final plan to GitHub; assistant verifies the file on `main`; user then separately authorizes formal v1.1 execution |
-
----
+| Next Stage | User separately authorizes formal RT-17 v1.1 execution; no execution may begin before that authorization |
 
 **End of Document**
