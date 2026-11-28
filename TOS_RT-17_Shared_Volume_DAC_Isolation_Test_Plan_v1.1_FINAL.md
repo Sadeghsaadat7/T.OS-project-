@@ -652,8 +652,8 @@ If a container removal fails, do not attempt volume removal until all v1.1 conta
 | GitHub Upload | `UPLOADED — VERIFIED ON MAIN` |
 | GitHub Verification | `PASS — EXACT FILE PRESENT ON MAIN; CONTENT AND BLOB SHA VERIFIED` |
 | GitHub Path | `TOS_RT-17_Shared_Volume_DAC_Isolation_Test_Plan_v1.1_FINAL.md` |
-| Verified Main Commit | `09d5d9761ab8f1fb736006ddbdcadb60ff63489f` |
-| Verified Blob SHA | `896b81ddb6b93f1127acd41a60e5a7da3ab67dfe` |
+| Verified Main Commit | ba898e439c6240090410572da5f21f04ddabe5bc |
+| Verified Blob SHA | 5e0378dce63b03cb2c116a0324831f6cc912f32a |
 | Execution Authorization | `NOT AUTHORIZED — REQUIRES SEPARATE EXPLICIT USER APPROVAL` |
 | Test Execution | `NOT STARTED` |
 | Test Result | `NOT ASSESSED` |
