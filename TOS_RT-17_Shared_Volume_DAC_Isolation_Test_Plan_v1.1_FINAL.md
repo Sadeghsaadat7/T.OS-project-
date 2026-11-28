@@ -121,7 +121,7 @@ All independent probe resources were confirmed absent after probe cleanup. Do no
 
 ## 5. Safety and Change-Control Rules
 
-1. **This document is a draft and does not authorize execution.** Formal v1.1 execution requires: user acceptance of this plan; upload by the user to GitHub; verification of the uploaded file on `main`; and a separate, explicit user authorization for formal v1.1 execution.
+1. 1. **This document defines the controlled test procedure but does not itself authorize execution.** Formal v1.1 execution may begin only after the user has accepted this plan, the uploaded file has been verified on `main`, and the user has separately and explicitly authorized formal v1.1 execution.
 2. Use Windows PowerShell 5.1 in a non-elevated session.
 3. Use only the default rootless Podman connection and the existing `podman-machine-default` WSL machine.
 4. Use only the already-cached local Fedora ARM64 image and `--pull=never`. Do not pull or build images.
