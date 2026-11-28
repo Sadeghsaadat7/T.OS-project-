@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-17-SVDAI-TP-001  
 **Version:** 1.0  
 **Date:** 2026-11-28  
-**Status:** FINAL — READY FOR USER REVIEW / GITHUB UPLOAD  
+**Status:** FINAL — UPLOADED AND VERIFIED ON MAIN; USER ACCEPTANCE PENDING  
 **Assessment Track:** Local Execution Environment Feasibility — Agent Identity & Permission Isolation  
 **Target Runtime:** Podman 6.2.1 / WSL2 / Linux ARM64 / rootless  
 **Target Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`); image pull prohibited  
@@ -727,16 +727,18 @@ These references explain the mechanisms and command semantics. They do not estab
 |---|---|
 | Document ID | TOS-RT-17-SVDAI-TP-001 |
 | Version | 1.0 |
-| Document Status | FINAL — READY FOR USER REVIEW / GITHUB UPLOAD |
-| Plan Acceptance | PENDING USER REVIEW |
-| GitHub Upload | NOT UPLOADED |
+| Document Status | FINAL — UPLOADED AND VERIFIED ON MAIN; USER ACCEPTANCE PENDING |
+| Plan Acceptance | PENDING USER ACCEPTANCE |
+| GitHub Upload | UPLOADED — VERIFIED ON MAIN |
 | Test Execution | NOT STARTED |
 | Execution Authorization | NOT GRANTED |
 | Test Result | NOT YET ASSESSED |
 | Scope | Shared named-volume DAC isolation between two distinct rootless workload User Namespaces, with a separate volume initializer |
 | Runtime Selection | NOT FINALIZED |
 | Production Authorization | NOT GRANTED |
-| Next Stage | User review and acceptance; GitHub upload and verification; separate execution authorization required before RT-17 begins |
+| GitHub Commit | `d6ab42d84d76244132c4848fce09f84760ad5ae4` |
+| GitHub Blob SHA | `d884fdfa61a4194ab8a64d6ec8320c97c75098ab` |
+| Next Stage | User acceptance of the uploaded plan; separate execution authorization required before RT-17 begins |
 
 ---
 
