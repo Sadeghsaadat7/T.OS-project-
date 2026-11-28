@@ -731,14 +731,14 @@ These references explain the mechanisms and command semantics. They do not estab
 | Plan Acceptance | ACCEPTED — USER APPROVED ON 2026-11-28 |
 | GitHub Upload | UPLOADED — VERIFIED ON MAIN |
 | Test Execution | NOT STARTED |
-| Execution Authorization | NOT GRANTED |
+| Execution Authorization | AUTHORIZED — USER APPROVED ON 2026-11-28 |
 | Test Result | NOT YET ASSESSED |
 | Scope | Shared named-volume DAC isolation between two distinct rootless workload User Namespaces, with a separate volume initializer |
 | Runtime Selection | NOT FINALIZED |
 | Production Authorization | NOT GRANTED |
 | GitHub Commit | `d6ab42d84d76244132c4848fce09f84760ad5ae4` |
 | GitHub Blob SHA | `d884fdfa61a4194ab8a64d6ec8320c97c75098ab` |
-| Next Stage | Awaiting separate user execution authorization for RT-17 |
+| Next Stage | RT-17 Controlled Preflight and Test Execution |
 
 ---
 
