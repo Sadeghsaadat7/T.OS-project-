@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-17-SVDAI-TP-001  
 **Version:** 1.0  
 **Date:** 2026-11-28  
-**Status:** FINAL — UPLOADED AND VERIFIED ON MAIN; USER ACCEPTANCE PENDING  
+**Status:** FINAL — ACCEPTED BY USER; UPLOADED AND VERIFIED ON MAIN  
 **Assessment Track:** Local Execution Environment Feasibility — Agent Identity & Permission Isolation  
 **Target Runtime:** Podman 6.2.1 / WSL2 / Linux ARM64 / rootless  
 **Target Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`); image pull prohibited  
@@ -728,7 +728,7 @@ These references explain the mechanisms and command semantics. They do not estab
 | Document ID | TOS-RT-17-SVDAI-TP-001 |
 | Version | 1.0 |
 | Document Status | FINAL — UPLOADED AND VERIFIED ON MAIN; USER ACCEPTANCE PENDING |
-| Plan Acceptance | PENDING USER ACCEPTANCE |
+| Plan Acceptance | ACCEPTED — USER APPROVED ON 2026-11-28 |
 | GitHub Upload | UPLOADED — VERIFIED ON MAIN |
 | Test Execution | NOT STARTED |
 | Execution Authorization | NOT GRANTED |
@@ -738,7 +738,7 @@ These references explain the mechanisms and command semantics. They do not estab
 | Production Authorization | NOT GRANTED |
 | GitHub Commit | `d6ab42d84d76244132c4848fce09f84760ad5ae4` |
 | GitHub Blob SHA | `d884fdfa61a4194ab8a64d6ec8320c97c75098ab` |
-| Next Stage | User acceptance of the uploaded plan; separate execution authorization required before RT-17 begins |
+| Next Stage | Awaiting separate user execution authorization for RT-17 |
 
 ---
 
