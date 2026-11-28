@@ -121,7 +121,7 @@ All independent probe resources were confirmed absent after probe cleanup. Do no
 
 ## 5. Safety and Change-Control Rules
 
-1. 1. **This document defines the controlled test procedure but does not itself authorize execution.** Formal v1.1 execution may begin only after the user has accepted this plan, the uploaded file has been verified on `main`, and the user has separately and explicitly authorized formal v1.1 execution.
+1. **This document defines the controlled test procedure but does not itself authorize execution.** Formal v1.1 execution may begin only after the user has accepted this plan, the uploaded file has been verified on `main`, and the user has separately and explicitly authorized formal v1.1 execution.
 2. Use Windows PowerShell 5.1 in a non-elevated session.
 3. Use only the default rootless Podman connection and the existing `podman-machine-default` WSL machine.
 4. Use only the already-cached local Fedora ARM64 image and `--pull=never`. Do not pull or build images.
@@ -652,8 +652,6 @@ If a container removal fails, do not attempt volume removal until all v1.1 conta
 | GitHub Upload | `UPLOADED — VERIFIED ON MAIN` |
 | GitHub Verification | `PASS — EXACT FILE PRESENT ON MAIN; CONTENT AND BLOB SHA VERIFIED` |
 | GitHub Path | `TOS_RT-17_Shared_Volume_DAC_Isolation_Test_Plan_v1.1_FINAL.md` |
-| Verified Main Commit | ba898e439c6240090410572da5f21f04ddabe5bc |
-| Verified Blob SHA | 5e0378dce63b03cb2c116a0324831f6cc912f32a |
 | Execution Authorization | `NOT AUTHORIZED — REQUIRES SEPARATE EXPLICIT USER APPROVAL` |
 | Test Execution | `NOT STARTED` |
 | Test Result | `NOT ASSESSED` |
