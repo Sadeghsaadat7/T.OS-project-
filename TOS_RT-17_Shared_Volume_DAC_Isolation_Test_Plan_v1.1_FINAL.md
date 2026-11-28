@@ -3,7 +3,7 @@
 **Document ID:** TOS-RT-17-SVDAI-TP-001  
 **Version:** 1.1  
 **Date:** 2026-11-28  
-**Status:** **Status:** FINAL — ACCEPTED BY USER; UPLOADED AND VERIFIED ON MAIN; EXECUTION NOT AUTHORIZED  
+**Status:** FINAL — ACCEPTED BY USER; UPLOADED AND VERIFIED ON MAIN; EXECUTION NOT AUTHORIZED  
 **Assessment Track:** Local Execution Environment Feasibility — Agent Identity & Permission Isolation  
 **Target Runtime:** Podman 6.2.1 / WSL2 / Linux ARM64 / rootless  
 **Target Image:** Existing local `quay.io/fedora/fedora:latest` (`linux/arm64`); image pull prohibited  
