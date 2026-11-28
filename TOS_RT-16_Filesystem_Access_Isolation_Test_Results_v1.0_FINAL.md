@@ -6,7 +6,7 @@
 |---|---|
 | Document Title | TOS RT-16 — Filesystem Access Isolation Test Results |
 | Version | 1.0 |
-| Status | FINAL — UPLOADED AND VERIFIED ON MAIN; USER ACCEPTANCE PENDING |
+| Status | FINAL — ACCEPTED; RT-16 CLOSED |
 | Test Plan | `TOS_RT-16_Filesystem_Access_Isolation_Test_Plan_v1.0_FINAL.md` |
 | Test Date | 2026-11-26 |
 | Execution Environment | Windows 11 ARM64 / Podman 6.2.1 / WSL2 |
@@ -14,7 +14,7 @@
 | Cleanup Result | PASS |
 | Runtime Selection | NOT FINALIZED |
 | Production Authorization | NOT GRANTED |
-| Stage Closure | PENDING USER ACCEPTANCE |
+| Stage Closure | CLOSED — USER ACCEPTED |
 
 ---
 
@@ -504,20 +504,20 @@ The approved test plan remains the governing source for the test scope and expec
 
 ## 12. Document Status and Stage Acceptance
 
-**Document Status: FINAL — UPLOADED AND VERIFIED ON MAIN**
+**Document Status: FINAL — ACCEPTED; RT-16 CLOSED**
 
 This report records the completed RT-16 execution, results, deviations, and cleanup.
 
-The final results document has been uploaded to the repository and verified on the `main` branch. The user has confirmed completion of the upload. Formal acceptance of the uploaded results report remains the final user-controlled stage-closure condition.
+The final results document has been uploaded to the repository, verified on the `main` branch, and explicitly accepted by the user on 2026-11-26. RT-16 is therefore formally closed.
 
 Current status:
 
 - Document upload status: UPLOADED.
 - Repository verification: VERIFIED ON `main`.
-- User acceptance of results report: PENDING.
-- RT-16 stage closure: PENDING USER ACCEPTANCE.
+- User acceptance of results report: ACCEPTED — USER CONFIRMED ON 2026-11-26.
+- RT-16 stage closure: CLOSED.
 
-The technical test execution and controlled cleanup are complete. RT-16 must not be marked fully closed until the user explicitly accepts this uploaded results report.
+The technical test execution, controlled cleanup, final documentation, repository verification, and user acceptance are complete.
 
 ---
 
