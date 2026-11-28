@@ -727,7 +727,7 @@ These references explain the mechanisms and command semantics. They do not estab
 |---|---|
 | Document ID | TOS-RT-17-SVDAI-TP-001 |
 | Version | 1.0 |
-| Document Status | FINAL — UPLOADED AND VERIFIED ON MAIN; USER ACCEPTANCE PENDING |
+| Document Status | FINAL — ACCEPTED BY USER; UPLOADED AND VERIFIED ON MAIN |
 | Plan Acceptance | ACCEPTED — USER APPROVED ON 2026-11-28 |
 | GitHub Upload | UPLOADED — VERIFIED ON MAIN |
 | Test Execution | NOT STARTED |
